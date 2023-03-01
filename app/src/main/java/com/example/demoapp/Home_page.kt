@@ -19,6 +19,8 @@ class Home_page : AppCompatActivity() {
         binding = ActivityHomePageBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val emailData = intent.getStringExtra("email")
+
         binding.bottomNavigationView.setOnItemSelectedListener{
 
             when(it.itemId){
