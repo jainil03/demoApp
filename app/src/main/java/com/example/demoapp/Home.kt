@@ -130,7 +130,6 @@ class Home : Fragment() {
 
     companion object {
         private const val REQUEST_ENABLE_BT = 1
-        private const val REQUEST_DISCOVERABLE_BT = 2
         private val MY_UUID: UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB")
         private const val TAG = "HomeFragment"
     }
